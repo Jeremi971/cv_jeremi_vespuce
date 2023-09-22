@@ -1,0 +1,105 @@
+                /* style.css */
+                
+                @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=DM+Serif+Display&display=swap');
+                body {
+                    width: 8.27in;
+                    /* Largeur A4 (21 cm) en pouces */
+                    height: 11.69in;
+                    /* Hauteur A4 (29.7 cm) en pouces */
+                    margin: 0 auto;
+                    /* Centre le contenu horizontalement */
+                    padding: 0.79in;
+                    /* Ajoute une marge intérieure de 2 cm en pouces */
+                    box-sizing: border-box;
+                    /* Inclut les marges intérieures dans les dimensions */
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: rgb(48, 47, 47);
+                }
+                
+                a {
+                    color: rgb(0, 27, 69);
+                    text-decoration: none;
+                }
+                
+                a:hover {
+                    font-size: 14px;
+                    color: rgb(123, 5, 5);
+                    font-weight: bold;
+                }
+                
+                main {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                }
+                
+                #section1 {
+                    flex: 1;
+                    border-right: solid 1px rgb(212, 210, 210);
+                    padding-right: 10px;
+                    background-color: rgb(170, 138, 138);
+                    padding: 10px;
+                    color: rgb(0, 27, 69);
+                }
+                
+                #section2 {
+                    flex: 2;
+                    background-color: rgb(247, 236, 236);
+                    padding: 10px;
+                }
+                /* style.css */
+                
+                h1,
+                h2,
+                h3 {
+                    font-family: 'Alegreya Sans SC', sans-serif;
+                }
+                
+                h1 {
+                    font-size: 18px;
+                    /* Nom */
+                }
+                
+                h2 {
+                    font-size: 16px;
+                    /* Titre (Data Analyst) */
+                }
+                
+                h4 {
+                    font-size: 10px;
+                }
+                
+                a,
+                p {
+                    font-size: 10px;
+                    /* Informations de contact */
+                }
+                
+                h3 {
+                    font-size: 12px;
+                    /* En-têtes de section (Compétences, Expériences, Formations) */
+                }
+                
+                ul li {
+                    font-size: 10px;
+                    /* Détails de chaque section (listes à puces) */
+                }
+                
+                img {
+                    border-radius: 180%;
+                    margin: auto;
+                    height: 100px;
+                    width: 90px;
+                }
+                
+                .older {
+                    color: rgb(94, 81, 81);
+                }
+                
+                span {
+                    color: rgb(133, 132, 132);
+                    font-weight: normal;
+                    font-size: 10px;
+                }
