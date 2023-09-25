@@ -2,6 +2,9 @@
                                 
                                 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=DM+Serif+Display&display=swap');
                                 @import url('https://fonts.googleapis.com/css2?display=swap');
+                                /* style.css */
+                                /* Import de polices */
+                                
                                 body {
                                     width: 100%;
                                     height: 100%;
@@ -9,7 +12,8 @@
                                     padding: 0;
                                     box-sizing: border-box;
                                     font-family: 'Cormorant Garamond', serif;
-                                    font-size: 12px;
+                                    font-size: 14px;
+                                    /* Augmentation de la taille de police */
                                     color: rgb(48, 47, 47);
                                 }
                                 
@@ -19,9 +23,9 @@
                                 }
                                 
                                 a:hover {
-                                    font-size: 14px;
                                     color: rgb(123, 5, 5);
                                     font-weight: bold;
+                                    font-size: 15px;
                                 }
                                 
                                 main {
@@ -29,21 +33,23 @@
                                     flex-direction: row;
                                     justify-content: flex-start;
                                     width: 100%;
-                                    height: 100%;
+                                    min-height: 100vh;
+                                    /* Utilisation de min-height pour éviter le débordement du contenu */
                                 }
+                                /* ... Le reste de votre CSS reste inchangé ... */
                                 
                                 #section1 {
                                     flex: 1;
                                     border-right: solid 1px rgb(212, 210, 210);
                                     padding-right: 10px;
-                                    background-color: rgb(170, 138, 138);
+                                    background-color: rgb(182, 152, 152);
                                     padding: 10px;
                                     color: rgb(0, 27, 69);
                                 }
                                 
                                 #section2 {
+                                    background-color: rgb(253, 236, 236);
                                     flex: 2;
-                                    background-color: rgb(247, 236, 236);
                                     padding: 10px;
                                 }
                                 /* style.css */
@@ -56,7 +62,7 @@
                                 
                                 h1 {
                                     font-size: 18px;
-                                    color: rgb(8, 24, 50);
+                                    color: rgb(1, 11, 25);
                                     /* Nom */
                                 }
                                 
@@ -100,6 +106,36 @@
                                     color: rgb(133, 132, 132);
                                     font-weight: normal;
                                     font-size: 10px;
+                                }
+                                /* Pour la section 1 */
+                                
+                                #section1 hr {
+                                    border-color: #41556a;
+                                    /* Couleur bleue */
+                                }
+                                /* Pour la section 2 */
+                                
+                                #section2 hr {
+                                    border-color: #ca8c7e;
+                                    /* Couleur orange */
+                                }
+                                /* Pour votre nom */
+                                
+                                #section1 h1 {
+                                    font-size: 24px;
+                                    /* Taille de police plus grande pour le nom */
+                                    font-weight: bold;
+                                    /* Texte en gras pour le nom */
+                                    color: #1a3a5c;
+                                    /* Couleur bleue pour le nom */
+                                }
+                                /* Pour le titre (Data Engineer) */
+                                
+                                #section1 h2 {
+                                    font-size: 20px;
+                                    /* Taille de police légèrement plus petite pour le titre */
+                                    color: #333;
+                                    /* Couleur de texte par défaut pour le titre */
                                 }
                                 /* Media query pour les écrans de bureau */
                                 
