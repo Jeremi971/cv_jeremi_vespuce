@@ -1,7 +1,7 @@
                                 /* style.css */
                                 
                                 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=DM+Serif+Display&display=swap');
-                                @import url('https://fonts.googleapis.com/css2?display=swap');
+                                @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
                                 /* style.css */
                                 /* Import de polices */
                                 
@@ -11,9 +11,7 @@
                                     margin: 0;
                                     padding: 0;
                                     box-sizing: border-box;
-                                    font-family: 'Cormorant Garamond', serif;
-                                    font-size: 14px;
-                                    /* Augmentation de la taille de police */
+                                    font-family: 'Merriweather', serif;
                                     color: rgb(48, 47, 47);
                                 }
                                 
